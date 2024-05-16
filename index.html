@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-UA-compatible"content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>persenal website</title>
+ <h1>SMEGNEW WEBSITE</h1>
+	<link rel="stylesheet" href="website.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+ <body> 
+	<div id="header">
+		<div class="container">
+		<nav>
+		<div  class="header-text">
+		<p>ux/ui designer</p>
+<h1>Hi,I'm <span>SMEGNEW</span><br> FROM ETHIOPIA</h1>
+			</div>
+				<ul id="sidemenu">
+					<li><a href="#header">home</a></li>
+					<li><a href="#About">About</a></li>
+					<li><a href="#services">services</a></li>
+					<li><a href="#portfolio">portfolio</a></li>
+					<li><a href="#contact">contact</a></li>
+                     <i class="fa-solid fa-bars"></i>
+                     <i class="fa-solid fa-xmark"></i>
+                 </ul>
+                 
+                    <img src="./image/logo.jpg"class="logo.jpg">
+			</div>
+	</div>
+	<!----------------------about----------->
+	<div id="About">
+		<div class="container">
+			<div class="row">
+				<div class="About-col-1">
+					<img src="image/Screenshot_20240319-225521.jpg">
+				</div>
+				<div class="About-col-2">
+					<h1 class="sub-tittles">About Me</h1>
+					<p>i am smegnew asefa.i live in A.A and also i have some experiences in web development
+						</p>
+						<div class="tab-tittles">
+							<p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+							<p class="tab-links" onclick="opentab('experience')">experience</p>
+							<p class="tab-links" onclick="opentab('education')">education</p>
+						</div >
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>UI/UX</span><br>DESIGNING WEB/APP INTERFACE</li>
+							<li><span>WEB DEVELOPMENT</span><br> WEB/APP DEVELOPMENT</li>
+							<li><span>APP DEVELOPMENT</span><br>ANDROIDE/APP DEVELOPMENT</li>
+						</ul>
+					</div>
+				</div>
+				<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>2015-2016</span><br>make real world project.</li>
+							<li><span>2014</span><br> intership programs in debremarkos university.</li>
+							<li><span>2016</span><br>short hardware maintenace courses</li>
+						</ul>
+					</div>
+			</div>
+			<div class="tab-contents" id="education">
+						<ul>
+							<li><span>2012-2016</span><br>gambella university.</li>
+							<li><span>2011</span><br>merawi preparatory schools.</li>
+							<li><span>2016</span><br>take short course  in related deciplins.</li>
+						</ul>
+					</div>
+		</div>
+		
+	</div>
+	<!--------------services---------->
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">my services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fa fa-code" aria-hidden="true"></i>
+
+					<h2>
+						web design
+					</h2>
+					<p>i am aweb and app developer</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fa-solid fa-lock"></i>
+					<h2>
+						ul/ux design
+					</h2>
+					<p>i am aweb and app developer</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fa-brands fa-app-store-ios"></i>
+					<h2>
+						app design
+					</h2>
+					<p>i am aweb and app developer</p>
+					<a href="#">Learn more</a>
+				</div>
+			</div>
+		
+			</div>
+	</div>
+	<!----------------portfolio------------>
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="sub-title">my work</h>
+				<div class="work-list">
+					<div class="work3">
+						<img src="image/AdministratorLogin.png">
+						<div class="layer">
+							<h3>data encoding/decoding app</h3>
+							<p>i design defferent appsss</p>
+						</div>
+						</div>
+                         <div class="work1">
+						<img src="image/comment.gif">
+						<div class="layer">
+							<h3>baner creater app</h3>
+							<p>i design defferent apps </p><hr>
+						</div>
+						<div class="work2">
+						<img src="image/images.jpg">
+						<div class="layer">
+							<h3>ms-access apps</h3>
+							<p>i design defferent apps </p>
+                           </div>
+                       </div>
+			</div>
+			<a href="#" class="btn">see more</a>
+			</div>
+			<!------------------contact----------------->
+			<div id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="contact-left">
+							<h1 class="sub-tittle">contact me</h1>
+							<p><i class="fas fa-paper-plane"></i>smegnewasefa17@gmail.com</p>
+							<p><i class="fa-solid fa-phone"></i>0968369588</p>
+							<div class="social-icons">
+								<a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+								<a href=""><i class="fa-brands fa-twitter"></i></a>
+                                  <a href=""><i class="fab fa-instagram"></a>
+                                  <a href=""><i class="fa-brands fa-telegram"></i></a>
+                                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
+							</div>
+							<a href="fffff.pdf"download class="btn btn2">download cv</a>
+						</div>
+						<div class="contact-right">
+							<form>
+								<input type="text" name="name"placeholder="your name"required>
+								<input type="email" name="email"placeholder="your email"required>
+								<textarea name="message" rows="6" placeholder="your message"></textarea>
+								<button type="submit" class="btn btn2">submit</button>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+				<div class="copyright">
+					<p>copyright @smegnew.by trajanhorse</p>
+					
+				</div>
+			</div>
+	<script>
+	var tablinks = document.getElementByClsssName("tab-links");
+	var tabcontents = document.getElementByClsssName("tab-contents");
+	function opentab(tabname){
+		for(tablink oftablinks){
+			tablink.classList.remove("active-link");
+		}
+function opentab(tabname){
+		for(tabcontent of tabcontents)I
+			tabcontent.classList.remove(" active-tab");
+	}
+	event.currentTarget.classList.add("active-link");
+	document.getElementById(tabname).classList.add("active-tab");
+}
+
+	</script>
+</body>
+</html>
